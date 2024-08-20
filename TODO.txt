@@ -1,0 +1,15 @@
+Umbenennung:
+promo -> promo2 (um Verwechslung mit Promo zu vermeiden)
+
+Hinzufügen:
+- lag_1
+- lag_7
+
+Entfernen:
+- CompetitionDistance​
+- CompetitionOpenSinceMonth​
+- CompetitionOpenSinceYear​
+- Customers
+- SchoolHoliday
+
+
