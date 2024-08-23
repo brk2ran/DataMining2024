@@ -12,4 +12,11 @@ Entfernen:
 - Customers
 - SchoolHoliday
 
+Baum
+Gradient Boosting
+NSTM (neuronales Netzwerk)
+Prophet?
+einmal alle mit den gleichen Features und dann jede 
+
+
 
