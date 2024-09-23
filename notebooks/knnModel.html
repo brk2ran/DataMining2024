@@ -7665,7 +7665,7 @@ Die Wahl des Parameters k (Anzahl der nächsten Nachbarn) ist entscheidend für 
 <div class="jp-InputPrompt jp-InputArea-prompt">In [13]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
-<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Datensatz sortieren, falls nicht bereits geschehen (angenommen, du hast eine Spalte 'Date')</span>
+<div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Datensatz sortieren, falls nicht bereits geschehen</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Date'</span><span class="p">)</span>
 
 <span class="c1"># auch noch Text hinzufügen</span>
@@ -8743,7 +8743,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
 <span class="n">data_cleaned</span> <span class="o">=</span> <span class="s2">"../data/cleaned_train.csv"</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_cleaned</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"latin"</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">thousands</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">decimal</span><span class="o">=</span><span class="s1">'.'</span><span class="p">,</span> <span class="n">low_memory</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 
-<span class="c1"># Datensatz sortieren, falls nicht bereits geschehen (angenommen, du hast eine Spalte 'Date')</span>
+<span class="c1"># Datensatz sortieren, falls nicht bereits geschehen</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Date'</span><span class="p">)</span>
 
 <span class="c1"># auch noch Text hinzufügen</span>
@@ -8861,7 +8861,7 @@ Test RMSPE (KNN): 0.24405497742782506
 <span class="c1"># Laden des Datensatzes</span>
 <span class="n">data_cleaned</span> <span class="o">=</span> <span class="s2">"../data/cleaned_train.csv"</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">data_cleaned</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s2">"latin"</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">thousands</span><span class="o">=</span><span class="s2">","</span><span class="p">,</span> <span class="n">decimal</span><span class="o">=</span><span class="s1">'.'</span><span class="p">,</span> <span class="n">low_memory</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-<span class="c1"># Datensatz sortieren, falls nicht bereits geschehen (angenommen, du hast eine Spalte 'Date')</span>
+<span class="c1"># Datensatz sortieren, falls nicht bereits geschehen</span>
 <span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="s1">'Date'</span><span class="p">)</span>
 
 <span class="c1"># auch noch Text hinzufügen</span>
@@ -9385,7 +9385,7 @@ Nächste Schritte: Verwende Techniken wie SHAP (Shapley Additive Explanations) o
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 
-<span class="c1"># Liste der Stores, die du visualisieren möchtest</span>
+<span class="c1"># Liste der Stores, die zu visualisieren sind</span>
 <span class="n">store_list</span> <span class="o">=</span> <span class="p">[</span><span class="mi">50</span><span class="p">,</span> <span class="mi">75</span><span class="p">,</span> <span class="mi">175</span><span class="p">]</span>  <span class="c1"># Beispiel: Stores 1, 2, 3</span>
 
 <span class="c1"># Anzahl der Subplots festlegen</span>
